@@ -8,7 +8,7 @@ HTML5 game of the famous puzzle game
 This game is already published on newgrounds:
 http://www.newgrounds.com/portal/view/618974
 
-It is actually more of 'sandbox' at the moment than a full game.
+It is actually more of a 'sandbox' at the moment than a full game.
 
 It makes use of the sheetengine library:
 http://sheetengine.codeplex.com/ <br>
