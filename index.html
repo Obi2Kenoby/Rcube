@@ -1,0 +1,51 @@
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <title>Titel</title>
+  <script src="Main/sheetengine-src-1.2.0.js"></script>
+  <script src="MovingObjects/MovingItem.js" type="text/javascript" charset="utf-8"></script>
+  <script src="MovingObjects/movingBox.js" type="text/javascript" charset="utf-8"></script>
+  <script src="Environement/viewSettings.js" type="text/javascript"></script>
+  <script src="Environement/canvasElement.js" type="text/javascript"></script>
+  <script src="Environement/keyControls.js" type="text/javascript"></script>
+  <script src="MovingObjects/group.js" type="text/javascript"></script>
+  <script src="MovingObjects/rubiXCubeLogic.js" type="text/javascript"></script>
+  <script src="MovingObjects/controlBox.js" type="text/javascript"></script>
+  <script src="MovingObjects/RCube.js" type="text/javascript"></script>
+  <script src="Main/game.js" type="text/javascript"></script>
+  <script src="Main/main.js"></script>
+  <script type="text/javascript" charset="utf-8">
+	  function loadScript() {
+		  new main();
+	  }
+  </script>
+  <style type="text/css">
+  body {
+  	margin: 0px;
+  	padding: 0px;
+  }
+  canvas { 
+  	outline: none;
+  	user-select: none; 
+  	-ms-user-select: none; 
+  	-webkit-user-select: none; 
+  	-khtml-user-select: none; 
+  	-moz-user-select: none; 
+  	-webkit-touch-callout: none; 
+  	-webkit-user-drag: none;
+  	border: 1px solid black;
+  	background: url(bck_controls.jpg);
+  }
+  </style>
+</head>
+  
+<body onload="loadScript()">
+  <canvas id="mainCanvas" width="600" height="400" tabindex="1">
+  This text is displayed if:
+  <ul>
+  <li>your browser does not support HTML5 Canvas,</li>
+  <li>or your browser is actively blocking this content (probably IE)</li>
+  </ul>
+  </canvas>
+</body>
+
+	
